@@ -1,0 +1,315 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1B1B1B;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 12px 20px;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: #6C757D;
+}
+/* Navigation Bar:Logo and image */
+#logo{
+    margin: 24px 30px;
+  }
+  #logo img{
+    height: 100px;
+    width: 110px;
+    margin: -22px 3px;
+    border-radius: 50px;
+  }
+  #logo img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  /*About Us*/
+  /* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#home p{
+    color: white;
+    text-align: justify;
+    /* font-size: 1rem; */
+    font-family: 'Newsreader', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: justify;
+}
+/*Services*/
+/* Services Section */
+#Services{
+    background-color:#1B1B1B;
+}
+#Services h1{
+    padding: 30px;
+    margin: 3px 10px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+#services-container{
+    margin: 90px;
+}
+#services{
+    display: flex;
+    margin: -15px;
+    justify-content: center;
+    align-items: center;
+  
+}
+#services .box{
+    border: 2px solid rgb(21, 230, 245);
+    padding: 34px;
+    margin: 3px 10px;
+    border-radius: 24px;
+    background-color: rgb(145, 221, 231);
+    color: #1B1B1B;
+    text-align: center;
+}
+#services .box img{
+  height: 210px;
+  width: 300px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+/*Recycling*/
+#recycling div h1{
+    text-align: center;
+}
+#recycling{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+}
+#recycling::before{
+    content: "";
+    background:url('') no-repeat center center/cover;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+}
+#recycling h1{
+    color: white;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#recycling p{
+    color: white;
+    text-align: justify;
+    /* font-size: 1rem; */
+    font-family: 'Newsreader', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: justify;
+}
+/* Buttons */
+.btn-primary {
+    background-color: white;
+    border-color: #007BFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0069D9;
+    border-color: #0062CC;
+}
+/*Partners*/
+#faq h1{
+    text-align: center;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+#partners{
+    display: flex;
+    margin: -15px;
+    justify-content: center;
+    align-items: center;
+  
+}
+#partners .box{
+    border: 2px solid rgb(241, 40, 26);
+    padding: 34px;
+    margin: 3px 10px;
+    border-radius: 24px;
+    
+}
+#partners .box img{
+    height: 210px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+#partners .box img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    }
+/*Contact Us*/
+#contact-us{
+    background-color: rgb(12, 12, 12);
+}
+#contact{
+    position: relative;
+}
+#contact h1{
+    text-align: center;
+    color: white;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('https://is.gd/i4Ww9z') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+#contact-box input{
+    width: 100%;
+    padding:0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+   font-size: 20px;
+   font-family: sans-serif;
+   color: rgb(10, 10, 10);
+}
+#icons span{
+    padding: 10px 12px;
+}
+/*About Us*/
+/* About Us */
+#about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    background-color: black;
+}
+.about{
+    /* border: 2px solid red; */
+    height: 250px;
+    margin: 0px 35px;
+
+}
+.us{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.h{
+    font-size: 1.3rem;
+    /* text-align: center; */
+    padding: 5px 20px;
+    color: rgb(124, 228, 228);
+}
+.about ul a{
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(241, 248, 248);
+    font-family: 'Newsreader', serif;
+}
+.about ul a:hover{
+    color:rgb(182, 241, 241) ;
+}
+/* Footer */
+.center{
+    text-align: center;
+    font-family: 'Newsreader', serif;
+}
+footer {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(252, 252, 252);
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+footer a {
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+}
